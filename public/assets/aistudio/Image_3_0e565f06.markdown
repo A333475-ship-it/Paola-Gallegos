@@ -1,0 +1,232 @@
+---
+name: Helvetia Analytical
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#5a4042'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#8e7071'
+  outline-variant: '#e2bec0'
+  surface-tint: '#b71c40'
+  primary: '#b61b3f'
+  on-primary: '#ffffff'
+  primary-container: '#d93856'
+  on-primary-container: '#ffffff'
+  inverse-primary: '#ffb2b8'
+  secondary: '#515f74'
+  on-secondary: '#ffffff'
+  secondary-container: '#d5e3fd'
+  on-secondary-container: '#57657b'
+  tertiary: '#ad2c4b'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#ce4563'
+  on-tertiary-container: '#ffffff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdadb'
+  primary-fixed-dim: '#ffb2b8'
+  on-primary-fixed: '#40000e'
+  on-primary-fixed-variant: '#91002c'
+  secondary-fixed: '#d5e3fd'
+  secondary-fixed-dim: '#b9c7e0'
+  on-secondary-fixed: '#0d1c2f'
+  on-secondary-fixed-variant: '#3a485c'
+  tertiary-fixed: '#ffd9dd'
+  tertiary-fixed-dim: '#ffb2bc'
+  on-tertiary-fixed: '#400012'
+  on-tertiary-fixed-variant: '#8c1035'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+  rose-tint: '#FCE8EC'
+  rose-muted: '#F5A3B3'
+  alpine-white: '#FFFFFF'
+  alpine-subtle: '#F8FAFC'
+  alpine-canvas: '#F1F5F9'
+  precision-slate: '#64748B'
+  precision-muted: '#94A3B8'
+  precision-border: '#E2E8F0'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  numeric-metric:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  tabular-data:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-md: 1.5rem
+  margin: 1.5rem
+  margin-sm: 1rem
+  margin-lg: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system channels the rigorous discipline of Swiss International Typographic Style fused with modern, high-density executive analytics. Engineered for corporate boards, wealth managers, and institutional analysts, the visual narrative prioritizes objective legibility, mathematical balance, and confident understatement.
+
+The emotional core balances clinical precision with calculated prestige. The experience feels fastidious, resolute, and authoritative. The design style relies on **Minimalism with Precision Structuralism**: strict horizontal/vertical alignment rules, fine hairline boundaries, deliberate white space, tabular clarity, and surgical crimson rose accents that direct executive attention exclusively to significant deltas, critical alerts, and actionable milestones.
+
+## Colors
+
+The palette establishes an executive hierarchy rooted in high-contrast optical clarity:
+
+- **Primary (`#D93856`)**: Swiss Rose / Crimson. Reserved strictly for primary focal triggers, pivotal key performance indicators (KPIs), active playback states, critical trends, and active selection anchors.
+- **Secondary (`#334155`)**: Slate Navy. Establishes structural components, section titles, primary interactive axes, and non-critical data visualization marks.
+- **Tertiary (`#E05370`)**: Rose Vibrance. Used for interactive hover states, micro-interactions, secondary chart series, and positive metric indicators requiring high-frequency nuance.
+- **Neutral (`#0F172A`)**: Deep Precision Obsidian. Deployed for root text, high-density figures, tabular values, and structural anchors.
+
+### Named Accent Colors
+- `rose-tint` (`#FCE8EC`) and `rose-muted` (`#F5A3B3`) supply soft contextual backing for active timeline scrubbers, tagged delta pills, and regional SVG heatmaps.
+- `alpine-white` (`#FFFFFF`), `alpine-subtle` (`#F8FAFC`), and `alpine-canvas` (`#F1F5F9`) define the crisp, high-altitude background layers.
+- `precision-slate` (`#64748B`), `precision-muted` (`#94A3B8`), and `precision-border` (`#E2E8F0`) provide the structural hairline grid, inactive axes, labels, and metadata markers.
+
+## Typography
+
+The typography is built upon the neutral, hyper-legible architecture of **Inter**, echoing Swiss modernist objectivity. Strict guidelines govern data density:
+
+- **Tabular Figures (`tnum`)**: All financial tables, numeric telemetry, axis tick marks, and timeline timestamps must enforce OpenType `font-feature-settings: "tnum" 1, "cv05" 1` to guarantee vertical column alignment across rapidly updating state figures.
+- **Labels**: Micro-labels, table column headers, and data metadata use `label-md` and `label-sm` with upper-case styling and deliberate letter-spacing (`0.04em`–`0.06em`) for immediate scannability.
+- **Hierarchy Disciplines**: Never mix more than two weights within a single component. Contrast is established through size, opacity variations of slate greys, and precise spacing rather than decorative typographic treatments.
+
+## Layout & Spacing
+
+Layout adheres to a disciplined 12-column grid engine optimized for widescreen analytic dashboards:
+
+- **Desktop (1280px+)**: 12-column grid with `margin-lg` (2.5rem / 40px) outer padding and `gutter-md` (1.5rem / 24px) gutters. Complex dashboards split cleanly into modular layouts (e.g., 8-column canvas with a 4-column drill-down inspector; or 3-col equal KPI cards).
+- **Tablet (768px - 1279px)**: 8-column grid with `margin` (1.5rem / 24px) margins and `gutter` (1rem / 16px) gutters. Secondary inspector panels collapse into swipeable slide-overs or stacked sections.
+- **Mobile (< 768px)**: 4-column grid with `margin-sm` (1rem / 16px) canvas boundaries. KPI rows convert into horizontal scroll carousels or stacked 2-column cards; data tables transition to card-based summary rows.
+
+Spacing follows an 8pt architectural rhythm with intermediate 4pt tokens (`space-xs`, `space-sm`) enabling dense tabular layouts and compact dashboard widgets.
+
+## Elevation & Depth
+
+In alignment with Swiss minimalist principles, depth is constructed via **tonal layering and low-contrast hairline outlines** rather than heavy drop shadows:
+
+- **Base Canvas**: The global background uses `alpine-canvas` (`#F1F5F9`) or `alpine-subtle` (`#F8FAFC`).
+- **Surface Elevation (Cards & Panels)**: Elevated content cards sit on pure `alpine-white` (`#FFFFFF`), bounded by a crisp 1px hairline border of `precision-border` (`#E2E8F0`).
+- **Subtle Ambient Depth**: Elevated menus, tooltips, and floating timeline scrubber handles use an ambient shadow: `box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.06), 0 1px 3px 0 rgba(15, 23, 42, 0.04)`.
+- **Active Focus & Modals**: Overlay sheets use an ultra-thin border with an elevated shadow: `box-shadow: 0 20px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04)`.
+
+## Shapes
+
+The shape system adopts a **Soft (Level 1)** geometric standard (0.25rem / 4px base radius):
+
+- **Data Cards, Chart Containers & Modals**: Built with `rounded-md` (4px to 6px) boundaries to retain technical, engineered sharpness without aggressive brutalism.
+- **Filter Chips, Badges & Toggles**: Use refined 4px roundedness or fully bounded capsules (for status pills) to delineate interactive controls from display canvases.
+- **Interactive Scrubber Handles & Nodes**: Circular geometries (100% radius) reserved exclusively for data point anchors, status indicators, and timeline play-axis drag pins.
+
+## Components
+
+### Buttons
+- **Primary**: Solid Swiss Rose (`#D93856`) fill with `#FFFFFF` text. Flat finish, 4px border radius, 36px standard executive height, `font-weight: 600`. Hover state transitions to `#E05370`.
+- **Secondary**: `#FFFFFF` background with 1px `precision-border` outline, text in `secondary` (`#334155`). Hover transitions to `#F8FAFC` background with text in `neutral` (`#0F172A`).
+- **Tertiary / Ghost**: Zero border, transparent fill, text in `#64748B`. Hover produces a subtle `#F1F5F9` background tint.
+
+### Data Tables (High Density)
+- **Header**: Height 36px, `alpine-subtle` background, text in `label-sm` upper-case with `#64748B` color. Bounded by a 1px solid bottom border (`#E2E8F0`).
+- **Rows**: Fixed 40px height for dense executive viewing. Alternating subtle zebra striping optional; hover row background tints to `rgba(248, 250, 252, 0.8)`.
+- **Numerical Data**: Right-aligned, formatted with `tabular-data` styling (`tnum`), positive deltas flagged with `#334155` and negative deltas marked with `#D93856` tag indicators.
+
+### Interactive Filter Chips
+- **Default**: Pill/soft-rectangle with `alpine-white` background, 1px `#E2E8F0` border, `#334155` label, and optional cross icon.
+- **Selected**: Inset tinted background of `rose-tint` (`#FCE8EC`), border colored in `#D93856`, text styled in `#D93856` at `font-weight: 600`.
+
+### Timeline / Play-Axis Scrubber
+- **Rail**: 4px track styled in `precision-border` (`#E2E8F0`), with played segments painted in `#D93856`.
+- **Thumb Handle**: 14px circular disc in `#FFFFFF` with a 2px `#D93856` ring and a delicate ambient shadow.
+- **Temporal Controls**: Play/pause square-icon button (28px × 28px) flanked by micro timestamp badges rendered in tabular numbers.
+
+### Regional Switzerland SVG Maps & Chart Canvases
+- **Map Vector styling**: Cantonal borders delineated by 0.75px stroke in `#FFFFFF` or `#E2E8F0`. Non-active cantons filled with `#F1F5F9`; data-density choropleth scales smoothly interpolate from `rose-tint` (`#FCE8EC`) through `rose-muted` (`#F5A3B3`) up to `#D93856`.
+- **Hover/Selected Canton**: 1.5px stroke in `#0F172A`, floating precision tooltip displaying canton name, current metric, and delta percentage.
+- **Chart Frames**: Grid lines must be hairline dashed lines (`#E2E8F0`). Zero baseline rendered solid (`#94A3B8`). Tooltip overlays utilize pure white backgrounds with 1px `#E2E8F0` borders and tabular metric summaries.
+
+### Form Inputs & Checkboxes
+- **Input Fields**: 36px height, `alpine-white` background, 1px `#E2E8F0` border, `body-md` typography. Focus state replaces border with 1px `#D93856` alongside an optical 2px focus ring tinted in `rgba(217, 56, 86, 0.15)`.
+- **Checkboxes & Radios**: 16px × 16px square/circle with a 1px border. Checked state displays solid `#D93856` fill with crisp white vector glyphs.

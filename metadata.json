@@ -1,0 +1,8 @@
+{
+  "name": "Remix Helvetia Analytical - Productividad y Economía Regional Suiza",
+  "description": "Dashboard ejecutivo de productividad laboral, PIB regional y estructura económica de Suiza (2012-2024).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
